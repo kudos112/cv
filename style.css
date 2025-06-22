@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+header.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: linear-gradient(135deg, #1a73e8, #673ab7);
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header.intro img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    transition: transform 0.3s;
+}
+
+header.intro img:hover {
+    transform: scale(1.05);
+}
+
+header.intro h1 {
+    margin: 0 0 10px;
+    font-size: 2.5em;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.skill-table {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-table table {
+    width: calc(50% - 10px);
+    border-collapse: collapse;
+}
+
+.skill-table td {
+    padding: 4px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #1a73e8;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #0c59d4;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background: #1a73e8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background: #0c59d4;
+}

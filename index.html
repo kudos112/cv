@@ -1,98 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>
-		Abdul Quddoos Personl Site
-	</title>
+    <meta charset="UTF-8">
+    <title>Abdul Quddoos Personal Site</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-	<body>
-		
-		<table cellspacing="10">
-		<tr>
-			<td><img src="./images/Quddous.jpg" alt="Image not Found" height="200px"></td>
-			<td>
-				<h1>Abdul Quddoos</h1>
-
-				<p>Student at <strong><a href = "https://lahore.comsats.edu.pk/">CUI, Lahore Campus</a></strong>.</p>
-				<p>I ❤️ cricket as well as programming and mathematics.</p>
-			</td>
-		</tr>
-		</table>
-		
-		<hr>
-		
-		<h3><u>Programming</u></h3>
-		
-		<ul>
-			<li>C</li>
-			<li>C++</li>
-			<li>Java</li>
-			<li>Python</li>
-			<li>HTML</li>
-			<li>SQL</li>
-		</ul>
-		<hr>
-		<h3><u>My Hobbies</u></h3>
-		
-		<ol>
-			<li>Coding</li>
-			<li>Programming</li>
-			<LI>Cricket</LI>
-		 </ol>
-		<hr>
-		<table cellspacing="10">
-
-		<h3><u>Skills</u></h3>
-			<tr>
-			<td>
-			<table>
-			<tr>
-				<td>C</td>
-				<td>*****</td>
-		    </tr>
-			<tr>
-					<td>C++</td>   
-					<td>***</td>
-			</tr>
-			<tr>
-					<td>Java</td>
-					<td>*****</td>
-			</tr>
-			<tr>
-					<td>Python</td>
-					<td>*****</td>
-			</tr>
-		</table>
-	</td>
-			<td>
-			
-			<table>
-			<tr>
-				<td>Painting</td>
-				<td>*****</td>
-		    </tr>
-			<tr>
-					<td>Photo Editing</td>   
-					<td>***</td>
-			</tr>
-			<tr>
-				<td>
-					Video Editing
-				</td>
-				<td>****</td>
-			</tr>
-			<tr>
-				<td>PhotoGraphy</td>
-				<td>*</td>
-			</tr>
-				</table>
-			</td>
-			
-		</tr>
-	</table>
-
-		 <hr>
-		 <h4><a href="./contact.html"><u>My Contact</u></a></h4>
-			
-	</body>
+<body>
+    <header class="intro container">
+        <img class="profile" src="./images/Quddous.jpg" alt="Abdul Quddoos">
+        <h1>Abdul Quddoos</h1>
+        <p>Student at <strong><a href="https://lahore.comsats.edu.pk/">CUI, Lahore Campus</a></strong>.</p>
+        <p>I ❤️ cricket as well as programming and mathematics.</p>
+    </header>
+    <main class="container">
+        <section>
+            <h2>Programming</h2>
+            <ul class="list">
+                <li>C</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>SQL</li>
+            </ul>
+        </section>
+        <section>
+            <h2>My Hobbies</h2>
+            <ol class="list">
+                <li>Coding</li>
+                <li>Programming</li>
+                <li>Cricket</li>
+            </ol>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <table>
+                <tr>
+                    <td>
+                        <table>
+                            <tr><td>C</td><td>★★★★★</td></tr>
+                            <tr><td>C++</td><td>★★★☆☆</td></tr>
+                            <tr><td>Java</td><td>★★★★★</td></tr>
+                            <tr><td>Python</td><td>★★★★★</td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr><td>Painting</td><td>★★★★★</td></tr>
+                            <tr><td>Photo Editing</td><td>★★★☆☆</td></tr>
+                            <tr><td>Video Editing</td><td>★★★★☆</td></tr>
+                            <tr><td>Photography</td><td>★☆☆☆☆</td></tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <div class="contact-link">
+            <a class="button" href="./contact.html">My Contact</a>
+        </div>
+    </main>
+</body>
 </html>
